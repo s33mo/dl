@@ -9,6 +9,8 @@
     	</minjquer.js>; rel=preload; as=cript
 	</*.js>; rel=preload; as=cript
 	</*.css>; rel=preload; as=style
+	<favicon.ico>; rel=preload; as=image
+	<*.jpg>; rel=preload; as=image
     </style.css>; rel=preload; as=style, \
 
 	X-XSS-Protection: 1; mode=block
