@@ -6,6 +6,7 @@
 
     # COMMENT: Multi-key header rules are expressed with multi-line strings
     Link = 
+    	</minjquer.js>; rel=preload; as=cript
 	</*.js>; rel=preload; as=cript
 	</*.css>; rel=preload; as=style
     </style.css>; rel=preload; as=style, \
