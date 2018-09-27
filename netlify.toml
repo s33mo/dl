@@ -1,11 +1,9 @@
 [[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-
-    # COMMENT: Multi-key header rules are expressed with multi-line strings
-    Link = 
-    </style1.css>; rel=preload; as=style, \
-    </style2.css>; rel=preload; as=style, \
-    </style3.css>; rel=preload; as=style
+for = "/*"
+[headers.values]
+X-Frame-Options = "DENY"
+X-XSS-Protection = "1; mode=block"
+Link = 
+</style1.css>; rel=preload; as=style, \
+</style2.css>; rel=preload; as=style, \
+</style3.css>; rel=preload; as=style
