@@ -3,14 +3,4 @@
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-    Link = 
-	</*.js>; rel=preload; as=script, \
-	</*.css>; rel=preload; as=style
-	</favicon.ico>; rel=preload; as=image, \
-	</*.jpg>; rel=preload; as=image, \
-	</*.png>; rel=preload; as=image, \
-	</*.woff2>; rel=preload; as=font, \
-	</*.woff>; rel=preload; as=font, \
-	</*.ttf>; rel=preload; as=font, \
-    </style.css>; rel=preload; as=style
-	Cache-Control: public , max-age=360000
+Link: </style.css>; rel=preload; as=style, </main.js>; rel=preload; as=script, </image.jpg>; rel=preload; as=image
