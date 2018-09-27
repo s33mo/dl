@@ -6,11 +6,15 @@
 
     # COMMENT: Multi-key header rules are expressed with multi-line strings
     Link = 
-    	</minjquer.js>; rel=preload; as=cript
-	</*.js>; rel=preload; as=cript
+    	</minjquer.js>; rel=preload; as=script
+	</*.js>; rel=preload; as=script
 	</*.css>; rel=preload; as=style
-	<favicon.ico>; rel=preload; as=image
-	<*.jpg>; rel=preload; as=image
+	</favicon.ico>; rel=preload; as=image
+	</*.jpg>; rel=preload; as=image
+	</*.png>; rel=preload; as=image
+	</*.woff2>; rel=preload; as=font
+	</*.woff>; rel=preload; as=font
+	</*.ttf>; rel=preload; as=font
     </style.css>; rel=preload; as=style, \
 
 	X-XSS-Protection: 1; mode=block
