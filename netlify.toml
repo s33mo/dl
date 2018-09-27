@@ -1,5 +1,0 @@
-[[headers]]
-for = "/*"
-[headers.values]
-
-Link =</style1.css>; rel=preload; as=style</style2.css>; rel=preload; as=style</style3.css>; rel=preload; as=style
